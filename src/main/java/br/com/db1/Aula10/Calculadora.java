@@ -5,6 +5,13 @@ public class Calculadora {
 	private Double resultado;
 	private Double primeiroValor;
 	private Double segundoValor;
+	
+	public Calculadora(){
+		zerarCalculo();
+	}
+	public void zerarCalculo(){
+		resultado = 0d;
+	}
 	public Double getResultado() {
 		return resultado;
 	}
@@ -38,6 +45,9 @@ public class Calculadora {
 	}
 	public Double multiplicacao(Double primeiroValor, Double segundoValor){
 		resultado = primeiroValor*segundoValor;
+		return resultado;
+	}
+	public Double exibirResultado(){
 		return resultado;
 	}
 }
