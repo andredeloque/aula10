@@ -1,21 +1,19 @@
 package br.com.db1.Aula10;
 
-private class Celular {
+public class Celular {
 
 			private String operadora;
+			private String nome;
+			private String marca;
+			private Boolean dualChip;
+			private Integer tamanhoTela;
+
 			public String getOperadora() {
 				return operadora;
 			}
 			public void setOperadora(String operadora) {
 				this.operadora = operadora;
 			}
-
-			private String nome;
-			private String marca;
-			private Boolean dualChip;
-			private Integer tamanhoTela;
-			
-			
 			public String getNome() {
 				return nome;
 			}
