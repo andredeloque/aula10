@@ -24,4 +24,20 @@ public class Calculadora {
 		this.segundoValor = segundoValor;
 	}
 	
+	public Double soma(Double primeiroValor, Double segundoValor){
+		resultado = primeiroValor+segundoValor;
+		return resultado;
+	}
+	public Double subtracao(Double primeiroValor, Double segundoValor){
+		resultado = primeiroValor-segundoValor;
+		return resultado;
+	}
+	public Double divisao(Double primeiroValor, Double segundoValor){
+		resultado = primeiroValor/segundoValor;
+		return resultado;
+	}
+	public Double multiplicacao(Double primeiroValor, Double segundoValor){
+		resultado = primeiroValor*segundoValor;
+		return resultado;
+	}
 }
